@@ -1,0 +1,129 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width:13rem;
+    height: 5rem;
+    justify-content: space-around;
+}
+.inputs input{
+    margin: 5px 0;
+    background-color: white;
+    outline: none;
+    border: 1px solid lightgray;
+    direction: rtl;
+    height: 35px;
+    width: 90%;
+    padding: 0 10px;
+    text-align: center;
+}
+.login{
+background-color: #ccc;
+width: 23rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.btn-a{
+    display: flex;
+    flex-direction: column;
+}
+.btn-a button{
+    width: 13rem;
+    background-color: rgb(68, 68, 255);
+    color: white;
+    border: none;
+height: 2rem;
+}
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.headertxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content :space-around;
+    background-color: rgb(68 68 255 / 83%);
+    width: 68rem;
+    height: 12rem;
+}
+.headertxt button{
+    background-color: #050580;
+    color: white;
+    border: none;
+height: 2rem;
+
+}
+.headertxt span{
+    color: white;
+    text-align: center;
+    width: 54rem;
+}
+.midhr-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.hr{
+    width:42rem;
+    background-color: #656363;
+    height: 1px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: .5rem;
+    margin: 2rem 3rem;
+}
+.card a{
+color: #656363;
+text-decoration: none;
+}
+.card{
+    width: 300px;
+    height: 180px;
+    /* background-color: blue; */
+    direction: rtl;
+    background-color: rgba(211, 211, 211, 0.5);
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    direction: rtl;
+}
+.card span{
+    margin: 10px;
+    font-size: 15px;
+}
+.heihr{
+    height: 1.2rem;
+    width: 1px;
+    background-color: black;
+    margin-right: 9px;
+}
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.nav a{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+.footernavbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 53%;
+    margin-left: 21rem;
+    margin-bottom: 10px;
+}
